@@ -23,5 +23,6 @@ def filtro(precios:dict[str,int], umbral:int , corte:str = "mayor"):
     else:
         print("esto no es valido")
 
+    return()
 
-filtro(precios, 200000, "menr")
+filtro(precios, 200000, "menor")
