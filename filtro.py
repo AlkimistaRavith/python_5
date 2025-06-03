@@ -17,14 +17,16 @@ try:
             for k , v in precios.items():
                 if v > umbral:
                     mayor_a.append(k)
-            print(mayor_a)
+            resultado = ", ".join(mayor_a)
+            print(f"Los productos mayores al umbral ({umbral}) son: \n{resultado}")
         #Evaluación opcional (menor)
         elif corte == "menor":
             menor_a = [] 
             for k , v in precios.items():
                 if v < umbral:
                     menor_a.append(k)
-            print(menor_a)
+            resultado = ", ".join(menor_a)
+            print(f"Los productos menores al umbral ({umbral}) son: \n{resultado}")
         #si el argumento de la variable corte no es "mayor" o "menor"
         else:
             print("""
