@@ -29,4 +29,4 @@ def calcular(**kwargs):
         else:
             print(f"El argumento {clave}, no cumple con el formato. Por favor utiliza fact_i o prod_i para calcular un factorial o una productoria, respectivamente.")
 
-calcular(fact_1=[1,2,3], prod_1=[3,6,4,2,8], fact_2=6)clear
+calcular(fact_1=5, prod_1=[3,6,4,2,8], fact_2=6)
